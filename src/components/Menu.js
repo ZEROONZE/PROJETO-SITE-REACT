@@ -9,11 +9,16 @@ const Menu = () => {
             <li><a>Cadastro</a>
                  <ul className='submenu'>
                     <li id="quadrado"></li>
-                 <li><a>Virtua</a></li>
-                 <li><a>Virtua + APP</a></li>
-                  <li><a>Virtua + ClaroTV</a></li>
-                 <li><a>Virtua + ClaroTV 4k</a></li>
-                 <li><a>Virtua + móvel</a></li>
+                    <br> 
+
+                    </br>  <br> 
+
+</br>
+                 <li><a>Internet </a></li>
+                 <li><a>Claro APP</a></li>
+                  <li><a>Claro TV HD</a></li>
+                 <li><a>Virtua + Claro TV 4k</a></li>
+                 <li><a>Móvel controle</a></li>
                 <li><a>4play</a></li>
                  </ul>
                  </li>

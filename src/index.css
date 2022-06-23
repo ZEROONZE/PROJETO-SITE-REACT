@@ -199,13 +199,13 @@ header{
 
     .submenu li a {
       color: rgb(255, 255, 255);
-      font-size: 18px;
+      font-size: 13px;
       white-space: nowrap; /*Alinhas linhas*/
       padding-bottom: 14px;
       cursor: pointer;
-      top: 30px;
-   
-      font-size: 17px;
+      top: 20px;
+     
+      font-size: 15px;
     }
 
    /******* hover *******/
