@@ -1,38 +1,77 @@
-.App {
-  text-align: center;
+body{
+  width: 100%;
+}
+/************************ SLIDER ***************************/
+.slider{
+  width: 100%;
+  height: 47%;
+  position:relative;
+  top: 0;
+  left: 0;
+  margin-bottom: 0px;
+  overflow: hidden;
+  top: -39px;
+
+
+ }
+
+ #foto{
+width: 100%;
+box-shadow: 3px 3px 3px 2px rgba(0, 0, 0, 0.2);
+
+ }
+ #capa{
+ width: 100%;
+    height: 360px;
+    object-fit: cover;
+    object-position: center;
+   
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+ .right-arrow{
+  position: absolute;
+  top:37%;
+  right:32px;
+  font-size: 3rem;
+  color: #000;
+  z-index: 10;
+  cursor: pointer;
+  user-select: none;
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  
+  .left-arrow {
+    position: absolute;
+    top:37%;
+    left:32px;
+    font-size: 3rem;
+    color: #000;
+    z-index: 10;
+  cursor: pointer;
+  user-select: none;
+  
   }
-  to {
-    transform: rotate(360deg);
+
+  .slide{
+    opacity: 0;
+    transition-duration: 1s ease;
+
   }
-}
+
+  .slide.active{
+    opacity: 1;
+    transition-duration: 1s;
+    transform: scale(1.08);
+
+  }
+  
+  
+  #logomenu{
+    z-index: 998;
+    position: relative;
+   left: 1.5rem;
+   height: 40px;
+   width: 100px;
+   top:17px;
+
+  }
