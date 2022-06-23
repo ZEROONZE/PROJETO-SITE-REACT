@@ -150,7 +150,7 @@ header{
 
     .menu li:hover ul, .menu li.over ul {
     display: block;
-    z-index: 100;
+    z-index: 101;
     }
 
   /************************ menu***************************/
