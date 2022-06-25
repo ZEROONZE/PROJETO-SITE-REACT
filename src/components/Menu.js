@@ -1,3 +1,6 @@
+
+import {Link} from "react-router-dom";
+
 const Menu = () => {
    
     return (
@@ -9,12 +12,8 @@ const Menu = () => {
             <li><a>Cadastro</a>
                  <ul className='submenu'>
                     <li id="quadrado"></li>
-                    <br> 
-
-                    </br>  <br> 
-
-</br>
-                 <li><a>Internet </a></li>
+                   
+                 <li><a>Internet</a></li>
                  <li><a>Claro APP</a></li>
                   <li><a>Claro TV HD</a></li>
                  <li><a>Virtua + Claro TV 4k</a></li>

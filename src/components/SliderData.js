@@ -12,3 +12,4 @@ export const SliderData = [
         image:'http://localhost:3001/capa.jpg'
     },
 ]
+

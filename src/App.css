@@ -69,9 +69,12 @@ box-shadow: 3px 3px 3px 2px rgba(0, 0, 0, 0.2);
   #logomenu{
     z-index: 998;
     position: relative;
-   left: 1.5rem;
+   right: -4rem;
    height: 40px;
    width: 100px;
    top:17px;
 
   }
+
+
+   

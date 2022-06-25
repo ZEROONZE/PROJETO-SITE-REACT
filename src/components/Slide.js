@@ -1,7 +1,7 @@
 import React, {useState}  from'react';
 import { SliderData } from './SliderData';
-
 import {FaArrowAltCircleLeft, FaArrowAltCircleRight} from 'react-icons/fa';
+
 
 
 
@@ -9,6 +9,7 @@ const Slide = ({slides}) => {
   const [current, setCurrent] = useState(0)
   const length = slides.length;
   
+
   const nextSlide = () => {
     setCurrent(current === length -1 ? 0 : current + 1);
   };
@@ -20,9 +21,13 @@ const Slide = ({slides}) => {
 
 
 
-if(!Array.isArray(slides) || slides.length <= 0) {
+if (!Array.isArray(slides) || slides.length <= 0) {
   return null;
 }
+
+
+
+
   return (
 
     <section className='slider'>
@@ -40,12 +45,8 @@ if(!Array.isArray(slides) || slides.length <= 0) {
         <img src={slide.image} alt='' id="capa" height="100%" width="100%" /></div>
         )}
         </div>
-      )
+      )  
       
-      
-      
-
-
     })}
        
     
