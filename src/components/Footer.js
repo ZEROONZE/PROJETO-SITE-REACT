@@ -2,15 +2,21 @@ import React from 'react'
 
 const Footer = () => {
   return (
-    <section>
+    
+ 
+    <div>
       <div className='novi'>NOVIDADES</div>
     <div className='novi'>NOVIDADES</div>
     <div className='novi'>NOVIDADES</div>
     <div className='novi'>NOVIDADES</div>
     <div className='novi'>NOVIDADES</div>
-    </section>
+    </div>
 
-    )
-}
+    
 
-export default Footer
+
+  
+            );
+             };
+
+export default Footer;
