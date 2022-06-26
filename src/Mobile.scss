@@ -1,0 +1,197 @@
+
+@media only screen and (max-width: 860px) {
+ 
+    .search-box{
+        display: none;
+    }
+#quadrado, #quadrado2{
+
+display: none;
+
+}
+ 
+
+      
+
+    #logomenu{
+        position: relative;
+        left: 75%;
+
+    }
+    .topoL{
+        background-color: #292935;
+        position: fixed;
+        z-index: 14;
+    }
+
+    .topo{
+        position: relative;
+        top:-25px;
+        background-color: transparent;}
+    .menumobi{
+        position: fixed;
+        z-index: 99999999;
+        margin-top: 83px;
+        left: 20px;
+    }
+   
+
+
+
+    .list {
+        display: flex;
+        flex-direction: column;
+         left: -0%;
+         width: 100%;
+        color: #fff;
+        background-color: #292935;
+        padding: 10px;
+        flex-wrap: nowrap;
+        z-index: 1;
+        position: fixed; 
+       top: 71px;
+
+    }
+
+  
+    
+    
+    
+    .list ul li {
+    
+    
+      color: #fff;
+      padding:10px 0px;
+      width: 100%;
+      color: #ffffff;
+  
+      text-align: center;
+      border-bottom: 1px solid #666;
+     
+    }
+    .list ul li Link {
+    
+      color: #fff;
+    }
+    
+    .list li:hover ul, .menu li.over ul {
+        display: none;
+        z-index: 101;
+        }
+
+    
+
+.icon{
+    position: absolute;
+    z-index: 900000;
+    left: 1%;
+    width: fit-content;
+    height: 44px;
+    cursor: pointer;
+    z-index: 99999999;
+}
+
+
+.list .listItems {
+padding: 0;
+list-style: none;
+
+}
+
+.list .listItems li{
+   
+    cursor: pointer;
+    
+    
+    }
+    .list .listItems li:hover{
+       font-weight: 800;
+            
+        }
+
+
+
+
+        
+.icon .iconActive .hamburguer{
+background-color: transparent;
+box-shadow: 0 2px 5px;
+position: fixed; 
+z-index: 99999999;
+}
+
+.icon .iconActive .hamburguer:after{
+top: 0;
+background-color: #fff;
+transform: rolate(225deg);
+ box-shadow: 0 -2px 5px;
+}
+.icon .iconActive .hamburguer:before{
+ 
+    top: 0;
+    background-color: #fff;
+    transform: rolate(135deg);
+    
+    }
+
+
+
+
+.hamburguer {
+    top:-90%;
+     left: 10%;
+     width: 37px;
+     height:6px;
+    background-color: #ffffff;
+    position: absolute;
+    box-shadow: 0 2px 5px;
+    transition: 0.5s;
+    z-index: 9999;
+    
+}
+
+.hamburguer:before {
+    top: -12px;
+    content: '';
+    position: absolute;
+    width: 37px;
+    height: 6px;
+    background-color: #fff;
+    box-shadow: 0 2px 5px;
+    transition: 0.5;
+    z-index: 900;
+   
+}
+
+
+.hamburguer::after {
+    top: 12px;
+    content: '';
+    position: absolute;
+    width: 37px;
+    height: 6px;
+    background-color: #ffffff;
+    box-shadow: 0 2px 5px;
+    transition: 0.5;
+    z-index: 900;
+
+}
+
+.topo .menuOpen {
+    position: absolute;
+    width: 110%;
+    
+
+    transition: 0.5s;
+    
+    }
+.topo .menuClose{
+  display: none;
+    width: 0px;
+    background-color: #666;
+       z-index: 900;
+}
+/************************BARRA MENU MOBILE***************************/ 
+
+   
+}

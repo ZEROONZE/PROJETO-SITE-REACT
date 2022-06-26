@@ -17,14 +17,14 @@ import About from './pages/About';
 import Home from './pages/Home';
 //- componentes
 import Navbar from './components/Navbar';
-import BarraMenu from './components/MenuBar';
+
 
 function App() {
   return (
     <body>
 
       <BrowserRouter>
-      <BarraMenu />
+ 
      
       
     

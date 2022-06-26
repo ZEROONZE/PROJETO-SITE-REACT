@@ -1,5 +1,6 @@
 body{
   width: 100%;
+  background-color: #ffffff;
 }
 /************************ SLIDER ***************************/
 .slider{
@@ -10,7 +11,7 @@ body{
   left: 0;
   margin-bottom: 0px;
   overflow: hidden;
-  top: -39px;
+  top: -50px;
 
 
  }

@@ -20,6 +20,7 @@ const About = () => {
     <div className="fundo">
         <Navbar /> 
         <Cadastro cadastros={CadastroData}/>
+     
          </div>
 
   )
