@@ -17,15 +17,15 @@ const Footer = () => {
 
 <div className="FACIL3">
   <h2 className="textD">BENEFÍCIOS</h2>
-          <p className="texto">Não precisa de equipamentos da Claro.</p>
-                <p className="texto">Acesso via aplicativo smartfone, tabble tanto IOS e Android, Web e TV SMAR LG.</p>
-                <p className="texto">2 Telas simultâneas.</p>
-                <p className="texto">+ 100 canais na TV e 50 mil no NOW.</p>
-                <p className="texto">Replay TV e gravador online com 400 horas inclusa.</p>
-                <p className="texto">Vendas apenas para cliente virtura. </p>
-                <p className="texto">A combinação APP + VTA + MÓVEL + FONE não será considerado combo multi. </p>
-                <p className="texto">Acesso via TV conectada LG (equip. a partir de 2018)</p>
-                <p className="texto">Podem vender nas areás em todas as areas com cobertura NET.</p>     
+          <p className="texto">Não precisa de equipamentos</p>
+                <p className="texto">Acesso via aplicativo smartfone, tabble tanto IOS e Android, Web e TV SMAR LG</p>
+                <p className="texto">2 Telas simultâneas</p>
+                <p className="texto">+ 100 canais na TV e 50 mil no NOW</p>
+                <p className="texto">Replay TV e gravador online com 400 horas inclusa</p>
+                <p className="texto">Vendas apenas para cliente virtura </p>
+                <p className="texto">A combinação APP + VTA + MÓVEL + FONE não será considerado combo multi </p>
+                <p className="texto">Acesso via TV conectada LG (equip. a partir de 2018)</p> 
+                <p className="texto">Podem vender nas areás em todas as areas com cobertura NET</p>     
 
       
 
@@ -79,6 +79,8 @@ const Footer = () => {
 <h3 className="textD">FILMES</h3>
 <div className="vari1">
     <img className="vari" src="../docu.png" />
+    </div>
+      <p></p>
                 <p className="texto">
                   130 | Universal Channel
                     150 | Canal Brasil
@@ -89,7 +91,9 @@ const Footer = () => {
                     156 | Prime Box Brasil
                     158 | Paramount
                     159 | TCM 
-                          </p></div>	
+                          </p>
+                        
+                       	
 </body>				
 
 

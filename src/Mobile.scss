@@ -10,7 +10,8 @@ display: none;
 
 }
  body{
-
+    color: #333;
+    background-color: #fff;
     font-family: 'Roboto';
     font-weight: 400;
  }
@@ -19,8 +20,9 @@ display: none;
 
     #logomenu{
         position: relative;
-        left: 70%;
-
+        
+        font-size: 30px;
+       margin-left: 20px;
     }
     .topoL{
         background: #5386E4;
@@ -56,7 +58,7 @@ display: none;
         position: fixed; 
        top: 71px;
        
-
+      
     }
 
   
@@ -153,10 +155,11 @@ transform: rolate(225deg);
      height:6px;
     background-color: #ffffff;
     position: absolute;
-    box-shadow: 0 2px 5px;
+    box-shadow: 0 2px 2px;
     transition: 0.5s;
     z-index: 9999;
     
+    border-radius: 5px;
 }
 
 .hamburguer:before {
@@ -166,10 +169,11 @@ transform: rolate(225deg);
     width: 37px;
     height: 6px;
     background-color: #fff;
-    box-shadow: 0 2px 5px;
+    box-shadow: 0 2px 2px;
     transition: 0.5;
     z-index: 900;
-   
+
+   border-radius: 5px;
 }
 
 
@@ -180,10 +184,10 @@ transform: rolate(225deg);
     width: 37px;
     height: 6px;
     background-color: #ffffff;
-    box-shadow: 0 2px 5px;
+    box-shadow: 0 2px 2px;
     transition: 0.5;
     z-index: 900;
-
+    border-radius: 5px;
 }
 
 .topo .menuOpen {
@@ -204,7 +208,7 @@ transform: rolate(225deg);
 
 .list li a  {
     font-size: 25px;
-    color: rgb(255, 255, 255);
+   color: rgb(226, 226, 226);
 }
 /************************BARRA MENU MOBILE***************************/ 
 
