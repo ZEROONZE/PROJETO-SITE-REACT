@@ -34,10 +34,17 @@ console.log(currente);
 
 
     return(       
+
+
+
+
+
+      
              <div
               className={index === currente ? 'cadastro activee' : 'cadastro'}  
                key={index}
                >
+                
               {index === currente && ( 
                 <div className="Fotocadastro" id="Foto">
              <img src={cadastro.image} id="FotoCapa" alt=""/>   </div>

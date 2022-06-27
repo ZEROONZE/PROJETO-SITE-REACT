@@ -1,6 +1,6 @@
 import React, {useState}  from'react';
 import { SliderData } from './SliderData';
-import {FaArrowAltCircleLeft, FaArrowAltCircleRight} from 'react-icons/fa';
+import {FaChevronLeft, FaChevronRight} from 'react-icons/fa';
 
 
 
@@ -31,8 +31,8 @@ if (!Array.isArray(slides) || slides.length <= 0) {
   return (
 
     <section className='slider'>
-    <FaArrowAltCircleLeft className='left-arrow'  onClick={prevSlide} />
-    <FaArrowAltCircleRight className='right-arrow'  onClick={nextSlide} />
+    <FaChevronLeft className='left-arrow'  onClick={prevSlide} />
+    <FaChevronRight className='right-arrow'  onClick={nextSlide} />
     {SliderData.map((slide, index) => {
 
       return (

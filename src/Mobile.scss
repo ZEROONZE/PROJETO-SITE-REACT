@@ -9,7 +9,11 @@
 display: none;
 
 }
- 
+ body{
+
+    font-family: 'Roboto';
+    font-weight: 400;
+ }
 
       
 
@@ -19,9 +23,10 @@ display: none;
 
     }
     .topoL{
-        background-color: #292935;
+        background: #5386E4;
         position: fixed;
         z-index: 14;
+        transition: 0.3s;
     }
 
     .topo{
@@ -44,12 +49,13 @@ display: none;
          left: -0%;
          width: 100%;
         color: #fff;
-        background-color: #292935;
+        background: #5386E4;
         padding: 10px;
         flex-wrap: nowrap;
         z-index: 1;
         position: fixed; 
        top: 71px;
+       
 
     }
 
@@ -62,11 +68,12 @@ display: none;
     
       color: #fff;
       padding:10px 0px;
+      
       width: 100%;
       color: #ffffff;
-  
+       
       text-align: center;
-      border-bottom: 1px solid #666;
+      border-bottom: 1px solid rgb(255, 255, 255);
      
     }
     .list ul li Link {
@@ -125,6 +132,8 @@ top: 0;
 background-color: #fff;
 transform: rolate(225deg);
  box-shadow: 0 -2px 5px;
+ z-index: 9999;
+ position: fixed;
 }
 .icon .iconActive .hamburguer:before{
  
@@ -190,6 +199,12 @@ transform: rolate(225deg);
     width: 0px;
     background-color: #666;
        z-index: 900;
+       transition: 0.5s;
+}
+
+.list li a  {
+    font-size: 25px;
+    color: rgb(255, 255, 255);
 }
 /************************BARRA MENU MOBILE***************************/ 
 

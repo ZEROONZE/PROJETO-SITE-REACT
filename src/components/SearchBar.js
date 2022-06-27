@@ -1,11 +1,14 @@
+
+import {FaSearch} from 'react-icons/fa';
+
 const BarraPesquisa = () => {
     return (
-      <div className="search-box">
-          <input type="text" placeholder="Busque aqui..." className="search-input" />
-          <a href="#" className="search-btn">
-              <i className="fas fa-search"></i>
-          </a>
-      </div>
+     
+        <div class="search-box">
+    <button class="btn-search"><FaSearch className="searchlupa" /></button>
+    <input type="text" className="input-search" placeholder="" />
+  </div>
+    
     );
   };
   

@@ -12,6 +12,7 @@ import {FaArrowAltCircleLeft, FaArrowAltCircleRight} from 'react-icons/fa';
 
 import { CadastroData } from "../components/CadastroData";
 import Cadastro from "../components/Cadastro";
+import Nome from "../components/Nome";
 
 
 
@@ -19,6 +20,7 @@ const About = () => {
   return (
     <div className="fundo">
         <Navbar /> 
+        <Nome />
         <Cadastro cadastros={CadastroData}/>
      
          </div>
