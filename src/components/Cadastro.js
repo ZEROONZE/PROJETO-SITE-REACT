@@ -5,6 +5,7 @@ import { CadastroData } from './CadastroData';
 import {FaChevronCircleLeft, FaChevronCircleRight} from 'react-icons/fa';
 import '../App.css';
 import '../cadastro.css'
+import '../Mobile.scss';
 const Cadastro = ({cadastros}) => {
 const [currente, setCurrente] = useState(0)
 const length = cadastros.length;
@@ -44,7 +45,7 @@ console.log(currente);
               className={index === currente ? 'cadastro activee' : 'cadastro'}  
                key={index}
                >
-                
+
               {index === currente && ( 
                 <div className="Fotocadastro" id="Foto">
              <img src={cadastro.image} id="FotoCapa" alt=""/>   </div>

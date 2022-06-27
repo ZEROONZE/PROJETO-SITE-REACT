@@ -4,10 +4,10 @@ import { SliderData } from "../components/SliderData"
 import Logo from "../components/Logo";
 import Navbar from "../components/Navbar";
 import Slider from '../components/Slide'
-import {FaArrowAltCircleLeft, FaArrowAltCircleRight} from 'react-icons/fa';
+import {FaChevronLeft, FaChevronRight} from 'react-icons/fa';
 import Footer from "../components/Footer";
 
-
+import "../Mobile.scss";
 
 const Home = () => {
   
